@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --br:20px;
+    --effect: scale(1.1) translateY(-10px);
+    --border:3px solid rgb(238, 14, 115);
+    --pad:10px;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background:linear-gradient(45deg,blue 20% ,red 60%,yellow 79%)
+}
+.box{
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: var(--br);
+    border: none;
+    
+    /* transform: var(--effect); */
+    transition: all 1s;
+}
+.box:hover{
+    transform: var(--effect);
+    border: var(--border);
+    transition: all 1s;
+}
+.box:nth-child(odd) h1{
+    color: brown;
+    padding: var(--pad);
+}
+.box:nth-child(odd) p{
+    color: rebeccapurple;
+    padding: 15px;
+}
+.box:nth-child(odd) button{
+    background-color: orangered;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: var(--br);
+}
+.box:nth-child(2) h1{
+    color: red;
+    padding: var(--pad);
+}
+.box:nth-child(2) p{
+    color: blue;
+    padding: 15px;
+}
+.box:nth-child(2) button{
+    background-color: green;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: var(--br);
+}

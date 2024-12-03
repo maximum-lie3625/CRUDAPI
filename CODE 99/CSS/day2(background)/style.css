@@ -1,0 +1,34 @@
+.box {
+  background-color: springgreen;
+  height: 850px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F443446%2Fpexels-photo-443446.jpeg%3Fcs%3Dsrgb%26dl%3Ddaylight-forest-glossy-443446.jpg%26fm%3Djpg&f=1&nofb=1&ipt=42b56aa213f4c7f3799847d2d536a05fdd95aecd1936e20e5696ba9571fab94c&ipo=images");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-weight: bold;
+  color: rgb(200, 321, 121);
+}
+
+p {
+  margin: 0px;
+  font-size: 20px;
+}
+.box2 {
+  background-color: #f0f0f0;
+  height: 800px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F443446%2Fpexels-photo-443446.jpeg%3Fcs%3Dsrgb%26dl%3Ddaylight-forest-glossy-443446.jpg%26fm%3Djpg&f=1&nofb=1&ipt=42b56aa213f4c7f3799847d2d536a05fdd95aecd1936e20e5696ba9571fab94c&ipo=images");
+}
+h1{
+    font-size: 150px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi2.wp.com%2Fzeevector.com%2Fwp-content%2Fuploads%2FColorful-Background-HD.png%3Ffit%3D1942%252C1476%26ssl%3D1&f=1&nofb=1&ipt=8b97a9332decd1c54615def3ac69ca495a2d3a251cc35b890e32441a714d47b4&ipo=images");
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    
+}

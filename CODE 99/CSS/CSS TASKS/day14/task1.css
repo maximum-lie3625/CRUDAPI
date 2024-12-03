@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* width: 80%; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.profile-card {
+  width: 250px;
+  height: 400px;
+  transition: all 1s;
+  border-radius: 10px;
+}
+.icons {
+  position: absolute;
+  width: 20px;
+  font-size: 20px;
+  color: white;
+  right: 5%;
+  bottom: 5%;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.profile-card:hover .icons{
+    visibility: visible;
+    transition: all 2s ;
+
+}
+.profile-card:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img{
+    position: relative;
+}
+footer h2{
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* @media only screen and(min-width:300px) and (max-width:600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-card{
+        width: 90%;
+    }
+    .profile-card:hover{
+        transform: none;
+    }
+    .profile-card:hover icons{
+        visibility: hidden;
+    }
+} */
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    /* Disable hover effects */
+    .profile-card {
+      pointer-events: none; /* This disables all hover effects */
+    }
+  
+    /* If you only want to disable the specific hover effects without disabling pointer events, use: */
+    .profile-card:hover {
+      transform: none; /* Disable the scale effect */
+      transition: none; /* Disable transition */
+    }
+    
+    .profile-card:hover .icons {
+      visibility: hidden; /* Disable the visibility change */
+      transition: none; /* Disable the transition effect */
+    }
+  }

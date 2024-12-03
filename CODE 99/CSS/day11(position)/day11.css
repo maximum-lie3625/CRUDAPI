@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.overall {
+  display: grid;
+  grid-template-areas:
+    "head head head head"
+    "sec1 sec1 sec1 side"
+    "sec2 sec2 sec2 side"
+    "foot foot foot foot";
+  /* grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); */
+  gap: 20px;
+  padding: 20px;
+}
+.box {
+  /* width: 300px; */
+  min-height: 300px;
+  /* border: 1px solid ; */
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  border-radius: 10px;
+}
+.col1 {
+  background-color: red;
+  grid-area: head;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.col2 {
+  background-color: blue;
+  grid-area: sec1;
+}
+.col3 {
+  background-color: peru;
+  grid-area: sec2;
+}
+.col4 {
+  background-color: plum;
+  grid-area: side;
+}
+.col5 {
+  background-color: palegreen;
+  grid-area: foot;
+}
+@media only screen and(min-width:300px) and (max-width:600px) {
+  .overall {
+    grid-template-areas:
+      "head"
+      "sec1  "
+      "sec2  "
+      "side  "
+      "foot ";
+      min-width: 300px;
+  }
+}

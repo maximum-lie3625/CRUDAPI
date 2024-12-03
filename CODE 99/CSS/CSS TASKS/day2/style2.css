@@ -1,0 +1,127 @@
+nav {
+  width: 100%;
+  background-color: transparent;
+  
+  box-sizing: border-box;
+  padding-bottom: 80px;
+}
+h2 {
+  margin: 0px;
+  color: burlywood;
+}
+.fltr {
+  float: right;
+}
+.fltl {
+  float: left;
+}
+.nav-info {
+  width: 45%;
+  margin-right: 20px;
+  font-weight: bold;
+  color: white;
+}
+.nav-mar {
+  margin: 0px 20px 0px 40px;
+}
+body {
+  margin: 0%;
+}
+button {
+  padding: 10px 20px;
+  background-color: green;
+  cursor: pointer;
+  border: none;
+  color: antiquewhite;
+  margin-top: -5px;
+}
+.inp {
+  padding: 8px;
+  border-radius: 5px 0px 0px 5px;
+  border: 2px solid green;
+  margin-top: -5px;
+}
+.btn-hd {
+  border-radius: 0px 5px 5px 0px;
+}
+.container {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpaperheart.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fdesktop-nature-wallpaper-awesome-free-desktop-nature-wallpaper-hd-for-of-laptop-desktop-wallpaper-hd-nature.jpg&f=1&nofb=1&ipt=677ec95e9fb1cde8abad07113af8f600295fbf9f3c38111810107a2c54af53e6&ipo=images");
+  height: 100vh;
+  padding: 20px;
+  background-attachment: fixed;
+  
+}
+
+article{
+    width: 70%;
+    height: 100vh;
+    float: left;
+}
+.art-hd{
+    width: 60%;
+    font-size: 70px;
+    margin: 0px;
+}
+span{
+    color: darkgreen;
+}
+.para{
+    width: 90%;
+}
+aside{
+    background-color: black;
+    float: right;
+    width: 20%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-right: 40px;
+    border-radius: 10px;
+    
+}
+.art-p{
+    color: white;
+    margin-bottom: 0px;
+}
+.form-btn{
+    margin-top:10px ;
+}
+.insf{
+    width: 90%;
+    border: none;
+    border-bottom:2px solid green ;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: white;
+    
+}
+.log-hd{
+    background-color: white;
+    border-radius: 5px;
+    color: green;
+}
+.up{
+    color: white;
+    margin: 0px;
+}
+a{
+    color: green;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.link-p{
+    color: white;
+    font-size: 14px;
+    margin: 0px;
+    margin-top: 10px;
+}
+.btn-sm{
+    background-color: transparent;
+    border: none;
+    width: 10%;
+    font-size: 25px;
+}
+.link{
+    margin-left: -20px;
+}

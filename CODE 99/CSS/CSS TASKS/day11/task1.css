@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+.container{
+  display: grid;
+  grid-template-areas: "lib pixel code"
+                        "lib grow tip"
+                        "inspire animate tip";
+    
+  gap: 20px;
+  padding: 20px;
+  
+}
+.box {
+    width: 300px;
+    min-height: 300px;
+    /* border: 1px solid ; */
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    border-radius: 10px;
+  }
+.col1{
+    background-color: rgb(192, 192, 22);
+    grid-area: lib;
+}  
+.col2{
+    background-color: pink;
+    grid-area: pixel;
+} 
+.col3{
+    background-color: rgb(213, 85, 85);
+    grid-area: code;
+} 
+.col4{
+    background-color: plum;
+    grid-area: inspire;
+} 
+.col5{
+    background-color: lightgreen;
+    grid-area: grow;
+} 
+.col6{
+    background-color: lightblue;
+    grid-area: tip;
+} 
+.col7{
+    background-color: lightsalmon;
+    grid-area: animate;
+} 
+
