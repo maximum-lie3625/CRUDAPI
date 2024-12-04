@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .profile-card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .profile-card h2 {
+            margin: 10px 0 5px;
+            font-size: 20px;
+        }
+
+        .profile-card p {
+            color: #777;
+            margin: 5px 0;
+        }
+
+        .profile-card .location {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .profile-card .stats {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .profile-card .stats div {
+            text-align: center;
+        }
+
+        .profile-card .stats div p {
+            margin: 5px 0;
+            font-weight: bold;
+        }
+
+        .profile-card .social-links {
+            margin: 20px 0;
+        }
+
+        .profile-card .social-links a {
+            text-decoration: none;
+            margin: 0 5px;
+            font-size: 20px;
+            color: #777;
+        }
+
+        .profile-card .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .profile-card .button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .profile-card .button.message {
+            background-color: #00bfa6;
+        }
+
+        .profile-card .button.follow {
+            background-color: #ff5a5f;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="profile.jpg" alt="Profile Picture">
+        <h2>Tamil Selvan</h2>
+        <p>Front-End Developer from TamilNadu</p>
+        <div class="location"><strong>Chennai, India</strong></div>
+        
+        <div class="stats">
+            <div>
+                <p>1598</p>
+                <span>Followers</span>
+            </div>
+            <div>
+                <p>65</p>
+                <span>Following</span>
+            </div>
+            <div>
+                <p>12</p>
+                <span>Articles</span>
+            </div>
+            <div>
+                <p>85</p>
+                <span>Works</span>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fas fa-link"></i></a>
+        </div>
+
+        <div class="buttons">
+            <button class="button message">Message</button>
+            <button class="button follow">Follow</button>
+        </div>
+    </div>
+</body>
+</html>

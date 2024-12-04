@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile Card</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background: #e0eafc;
+            }
+
+            .card {
+                width: 300px;
+                background: linear-gradient(to bottom, #f2709c, #ff9472);
+                border-radius: 10px;
+                text-align: center;
+                padding: 20px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                color: white;
+                font-family: Arial, sans-serif;
+            }
+
+            .card img {
+                width: 80px;
+                border-radius: 50%;
+                margin: 10px 0;
+            }
+
+            .card h1 {
+                font-size: 24px;
+                margin: 10px 0;
+            }
+
+            .card p {
+                font-size: 16px;
+                margin: 5px 0;
+            }
+
+            .stats {
+                background: white;
+                border-radius: 10px;
+                padding: 10px;
+                margin: 20px 0;
+                color: black;
+            }
+
+            .stats div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 5px 0;
+            }
+
+            .btn {
+                background: #4a90e2;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+
+            .social-icons {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                margin-top: 10px;
+            }
+
+            .social-icons a {
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <img
+                src="https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-6-1.png"
+                alt="GeeksforGeeks Logo"
+            />
+            <h1>GeeksforGeeks</h1>
+            <p>Web Developer</p>
+            <p>Noida, India</p>
+            <div class="stats">
+                <div>
+                    <span>Followers: 1000</span>
+                    <button class="btn">Follow +</button>
+                </div>
+                <div>
+                    <span>Following: 100</span>
+                    <button class="btn">Follow +</button>
+                </div>
+                <div>
+                    <span>Articles: 111</span>
+                    <button class="btn">Read +</button>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </body>
+</html>

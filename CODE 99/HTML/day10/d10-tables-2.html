@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Day 10 tables 2</title>
+        <style>
+            table,
+            th,
+            td {
+                border: 2px solid black;
+                /*border-collapse: collapse;*/
+                text-align: center;
+                padding: 10px;
+                border-spacing:10px;
+            }
+            table {
+                width: 100%;
+            }
+            .wid {
+                width: 10%;
+                height:50px;
+                
+            }
+            .color{
+                background-color:lightgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Table</h1>
+        <table>
+            <colgroup>
+               <col span="2" class="color"/>
+               </colgroup>
+            <colgroup>
+               <col span="1"/>
+               </colgroup>
+             <colgroup>
+             <col span="1" class="color"/>
+             </colgroup>
+             
+            <tr>
+               <th class="wid">S.no</th>
+                <td class="wid">01</td>
+                <td class="wid">02</td>
+                <td class="wid">03</td>
+            </tr>
+            <tr>
+                <th>Names</th>
+                
+                
+                <td>raja</td>
+                <td>maya</td>
+                <td>ram</td>
+                
+                
+            </tr>
+            <tr>
+                <th>maths</th>
+                <td>67</td>
+                
+                <td>88</td>
+                <td>76</td>
+                
+            </tr>
+            <tr>
+                <th>science</th>
+                
+                
+                <td>87</td>
+                <td>88</td>
+                <td>56</td>
+            </tr>
+        </table>
+    </body>
+</html>

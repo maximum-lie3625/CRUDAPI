@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #1a1a1a;
+        }
+
+        .card {
+            background-color: #2a2a2a;
+            color: #ffae42;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        .card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 15px;
+            box-shadow: 0 0 10px 2px #ffae42;
+        }
+
+        .card h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #ddd;
+            margin: 10px 0 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-icons a {
+            color: #ffae42;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .social-icons a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="profile-image.jpg" alt="Profile Image">
+        <h2>Mohammed Farook</h2>
+        <p>User interface designer and Front-end Designer</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i>F</a>
+            <a href="#"><i class="fab fa-twitter"></i>T</a>
+            <a href="#"><i class="fab fa-instagram"></i>I</a>
+            <a href="#"><i class="fab fa-youtube"></i>Y</a>
+        </div>
+    </div>
+</body>
+</html>

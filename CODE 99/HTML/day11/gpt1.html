@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plan</title>
+    <style>
+        .pricing-card {
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            background: #f5faff;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+            margin: 20px auto;
+        }
+        .plan-header {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .plan-option {
+            margin: 0 10px;
+            padding: 5px 15px;
+            border-radius: 20px;
+            color: #333;
+            cursor: pointer;
+        }
+        .plan-option.selected {
+            background: linear-gradient(90deg, #9e9cff, #d6a3fc);
+            color: white;
+        }
+        .plan-price {
+            font-size: 48px;
+            margin: 20px 0;
+            color: #333;
+        }
+        .plan-details {
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .plan-button {
+            padding: 10px 20px;
+            background: #9e9cff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-card">
+        <div class="plan-header">
+            <div class="plan-option">Basic</div>
+            <div class="plan-option selected">Standard</div>
+            <div class="plan-option">Team</div>
+        </div>
+        <div class="plan-price">$99<span>/mon</span></div>
+        <div class="plan-details">For professional use</div>
+        <ul style="list-style: none; padding: 0; color: #333;">
+            <li>✔️ Unlimited GB Premium Bandwidth</li>
+            <li>✔️ FREE 200+ Installation Scripts WordPress Supported</li>
+            <li>✔️ Five FREE Domain Registration .com and .np extensions only</li>
+            <li>✔️ Unlimited Email Accounts & Databases</li>
+        </ul>
+        <button class="plan-button">Choose plan</button>
+    </div>
+</body>
+</html>

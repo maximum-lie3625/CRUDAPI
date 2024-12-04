@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<title>day 13 iframe</title>
+<style>
+ textarea{
+ 	resize:none;/*disable the resize of textarea*/
+  }
+</style>
+</head>
+<body>
+<form>
+<label>wild animal</label><br/>
+<select>
+    <option >Select the option</option><!--select has no placeholder so use this-->
+    <option >Lion</option>
+    <option >tiger</option>
+    <option >panther</option>
+</select><br/>
+  <label>Name</label><br/>
+  <input type="text" name="name" required/> <br/><!--required is use to validate the contents-->
+   <label>Phone</label><br/>
+  <input type="number" min="5" max="100" step="5"/> <br/><br/><!--when using steps number entered must be the increment of the steps -->
+  <label>description</label>
+  <br/>
+  <textarea placeholder="enter your msg" cols="40" rows="5"></textarea><br/>
+  <input type="submit"/>
+  
+</form>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout</title>
+    <style>
+        body {
+            background-color: #e0ffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 300px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card .tags {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            padding: 10px;
+        }
+        .card .tags span {
+            background: #f0f0f0;
+            border-radius: 15px;
+            padding: 5px 10px;
+            font-size: 12px;
+            color: #555;
+        }
+        .card h2 {
+            margin: 0;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .card p {
+            padding: 0 10px;
+            font-size: 14px;
+            color: #666;
+        }
+        .card .button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            background: #add8e6;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://via.placeholder.com/300x150" alt="Man Sitting In Lake">
+        <div class="tags">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <h2>Man Sitting In Lake</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusamus laudantium, repellendus, adipisci eum nihil quos fugit exercitationem voluptatibus nam.</p>
+        <a href="#" class="button">Read More</a>
+    </div>
+</body>
+</html>

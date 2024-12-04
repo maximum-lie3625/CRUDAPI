@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pricing Table</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: #f3f3f3;
+            }
+            table {
+                width: 80%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+            th,
+            td {
+                padding: 20px;
+                text-align: center;
+                border: 1px solid #ddd;
+            }
+            th {
+                background-color: #f8f8f8;
+                font-size: 24px;
+            }
+            .price {
+                font-size: 28px;
+                color: #ff5a5f;
+            }
+            .billed {
+                font-size: 14px;
+                color: #666;
+            }
+            .popular {
+                background-color: yellow;
+                font-size: 12px;
+                padding: 2px 5px;
+                font-weight: bold;
+            }
+            .feature-available {
+                color: #4caf50;
+            }
+            .feature-unavailable {
+                color: #ff0000;
+            }
+            button {
+                background-color: #ff5a5f;
+                color: #fff;
+                border: none;
+                padding: 10px;
+                font-size: 16px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #e14e4e;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Select your plan</th>
+                    <th>Starter</th>
+                    <th>Essential <span class="popular">Popular</span></th>
+                    <th>Professional</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td class="price">
+                        $10/month<br /><span class="billed"
+                            >billed annually</span
+                        >
+                    </td>
+                    <td class="price">
+                        $22/month<br /><span class="billed"
+                            >billed annually</span
+                        >
+                    </td>
+                    <td class="price">
+                        $35/month<br /><span class="billed"
+                            >billed annually</span
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Domain redirects</td>
+                    <td class="feature-available">✔</td>
+                    <td class="feature-available">✔</td>
+                    <td class="feature-available">✔</td>
+                </tr>
+                <tr>
+                    <td>30 days money back</td>
+                    <td class="feature-available">✔</td>
+                    <td class="feature-available">✔</td>
+                    <td class="feature-available">✔</td>
+                </tr>
+                <tr>
+                    <td>Free domain transfer</td>
+                    <td class="feature-unavailable">✘</td>
+                    <td class="feature-available">✔</td>
+                    <td class="feature-available">✔</td>
+                </tr>
+                <tr>
+                    <td>Free website setup</td>
+                    <td class="feature-unavailable">✘</td>
+                    <td class="feature-available">✔</td>
+                    <td class="feature-available">✔</td>
+                </tr>
+                <tr>
+                    <td>Network firewall</td>
+                    <td class="feature-unavailable">✘</td>
+                    <td class="feature-unavailable">✘</td>
+                    <td class="feature-available">✔</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button>Get started</button></td>
+                    <td><button>Get started</button></td>
+                    <td><button>Get started</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
