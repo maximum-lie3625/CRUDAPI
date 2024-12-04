@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Day 10 task 1</title>
+        <style>
+            table,
+            th,
+            td {
+                border: 2px solid black;
+
+                text-align: center;
+            }
+            th,
+            td {
+                padding: 10px;
+            }
+            .heading {
+                color: red;
+                text-align: center;
+                background-color: grey;
+            }
+            div {
+                width: 800px;
+                height: 500px;
+                margin: auto;
+            }
+            .col1 {
+                background-color: lightgreen;
+            }
+            .col2 {
+                background-color: lightgoldenrodyellow;
+            }
+            .col3 {
+                background-color: black;
+                color: lime;
+            }
+            .wid {
+                width: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="heading">Time Table</h1>
+        <div>
+            <table>
+                <colgroup>
+                    <col span="1" class="col2" />
+                </colgroup>
+                <tr>
+                    <th class="col1">Day/Period</th>
+                    <th class="col1">I 9.30-10.20</th>
+                    <th class="col1">II 10.20-11.10</th>
+                    <th class="col1">III 11.10-12.00</th>
+                    <th class="col1">12.00-12.40</th>
+                    <th class="col1">IV 12.40-1.30</th>
+                    <th class="col1">V 1.30-2.20</th>
+                    <th class="col1">VI 2.20-3.10</th>
+                    <th class="col1">VII 3.10-4.00</th>
+                </tr>
+
+                <tr>
+                    <th class="col2">Monday</th>
+                    <td>Tamil</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td rowspan="6" class="wid"><h1>Lunch</h1></td>
+                    <td>English</td>
+                    <td>Physics</td>
+                    <td>Social</td>
+                    <td>Chemistry</td>
+                </tr>
+                <tr>
+                    <th class="col2">Tuesday</th>
+                    <td colspan="3">LABORTARY</td>
+
+                    <td>English</td>
+                    <td>Chemisty</td>
+                    <td>Maths</td>
+                    <td class="col3">SPORTS</td>
+                </tr>
+                <tr>
+                    <th class="col2">Wednesday</th>
+                    <td>Maths</td>
+                    <td>Physics</td>
+                    <td>English</td>
+
+                    <td>Chemistry</td>
+                    <td colspan="2">Library</td>
+
+                    <td>Tamil</td>
+                </tr>
+                <tr>
+                    <th class="col2">Thursday</th>
+                    <td>Physics</td>
+                    <td>English</td>
+                    <td>Chemistry</td>
+
+                    <td>Tamil</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                </tr>
+                <tr>
+                    <th class="col2">Friday</th>
+                    <td>Maths</td>
+                    <td>Chemistry</td>
+                    <td>English</td>
+
+                    <td>Physics</td>
+                    <td colspan="3">LABORTARY</td>
+                </tr>
+                <tr>
+                    <th class="col2">Saturday</th>
+                    <td>English</td>
+                    <td>Chemistry</td>
+                    <td>Maths</td>
+
+                    <td>Tamil</td>
+                    <td>Maths</td>
+                    <td>English</td>
+                    <td class="col3">SPORTS</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

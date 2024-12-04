@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Day 13 task 1</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            .container {
+                width: 600px;
+                height: 575px;
+                margin: auto;
+                box-sizing: border-box;
+            }
+            .form1 {
+                width: 400px;
+                height: 100%;
+                background-color: black;
+                float: left;
+                padding: 15px;
+                box-sizing: border-box;
+                border-radius: 10px;
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+            }
+            .form2 {
+                width: 200px;
+                height: 100%;
+                background-color: rebeccapurple;
+                float: left;
+                box-sizing: border-box;
+                border-radius: 10px;
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+            }
+            p {
+                color: white;
+                margin: 0px;
+                font-size: 14px;
+                margin-left: 10px;
+            }
+            .pmar {
+                margin-top: 10px;
+            }
+            h4 {
+                color: rebeccapurple;
+                margin: 0px;
+                margin-left: 10px;
+            }
+            .field {
+                background-color: transparent;
+                border: 1px solid whitesmoke;
+                border-radius: 20px;
+                width: 93%;
+                padding: 10px;
+                color: white;
+                margin-top: 20px;
+            }
+            .sfield {
+                background-color: transparent;
+                border: 1px solid whitesmoke;
+                border-radius: 20px;
+                padding: 10px;
+                color: white;
+                margin-top: 20px;
+                border-right: none;
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+            }
+            .wid {
+                width: 75%;
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+                border-left: none;
+
+                margin-left: -4px;
+            }
+            .wid1 {
+                width: 35%;
+            }
+            .lcol {
+                color: whitesmoke;
+            }
+            .wid2 {
+                width: 40%;
+            }
+            .passmar {
+                margin-right: 10px;
+            }
+            .ft {
+                font-size: 10px;
+                float: left;
+                width: 70%;
+                margin-top: 20px;
+            }
+            .check {
+                float: left;
+                margin-top: 20px;
+                margin-right: 10px;
+            }
+            .btn {
+                width: 100%;
+                padding: 5px 20px;
+                border-radius: 20px;
+                font-weight: bold;
+                font-size: 18px;
+                margin-top: 10px;
+                background-color: rebeccapurple;
+                border: none;
+            }
+            .align {
+                text-align: center;
+                margin-top: 10px;
+            }
+            .mar {
+                margin-left: 35px;
+            }
+            img {
+                width: 75%;
+                height: 40%;
+                margin-top: 150px;
+            }
+            .img {
+                text-align: center;
+            }
+            select, input{
+            		/*used to remove outline when we click on it*/
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div class="container">
+            <form class="form1">
+                <p class="pmar">Signup to</p>
+                <h4>Join the #purple family</h4>
+                <input
+                    class="field"
+                    placeholder="First name*"
+                    type="text"
+                    required
+                />
+                <input
+                    class="field"
+                    placeholder="last name*"
+                    type="text"
+                    required
+                />
+                <input
+                    class="field"
+                    placeholder="Email*"
+                    type="email"
+                    required
+                />
+                <select class="sfield">
+                    <option>+91</option>
+                    <option>+001</option>
+                    <option>+44</option>
+                </select>
+                <input
+                    class="field wid"
+                    placeholder="Enter Your mobile number*"
+                    type="tel"
+                    required
+                />
+                <input class="field wid1" type="date" />
+                <input class="mar" type="radio" name="gender" />
+                <label class="lcol">Male</label>
+                <input type="radio" name="gender" />
+                <label class="lcol">Female</label>
+                <input
+                    class="field wid2 passmar"
+                    placeholder="4 Digit PIN*"
+                    type="password"
+                    required
+                />
+                <input
+                    class="field wid2"
+                    placeholder="Re-enter PIN*"
+                    type="password"
+                    required
+                />
+                <input class="check" type="checkbox" />
+                <p class="ft">
+                    I agree to the terms & conditions and privacy Policy of
+                    kolkata knight riders Ltd*
+                </p>
+
+                <input class="btn" type="button" value="Register" />
+                <p class="align">Already a member? sign In</p>
+            </form>
+            <form class="form2 img">
+                <img src="./627d0b388a632ca996477e91.png" />
+            </form>
+        </div>
+        <marquee direction="right" height="300px" scrollamount="20" behavior="slide"><h4>JOIN NOW </h4><marquee>
+    </body>
+</html>
